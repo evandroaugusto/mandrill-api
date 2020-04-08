@@ -1,0 +1,27 @@
+{
+  "name": "evandroaugusto/mandrill-api",
+  "description": "A super simple Mandrill API v1 wrapper",
+  "type": "library",
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/evandroaugusto/http-client.git"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "evandroaugusto/http-client": "0.*"
+  },
+  "authors": [
+    {
+      "name": "Evandro Oliveira",
+      "email": "evandro@siriusprime.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "evandroaugusto\\Mandrill\\": "src"
+    }
+  }
+}
